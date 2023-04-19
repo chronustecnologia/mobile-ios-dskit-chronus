@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
                        DESC
 
    s.homepage         = 'https://github.com/chronustecnologia/mobile-ios-dskit-chronus'
-     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
    s.license          = { :type => 'MIT', :file => 'LICENSE' }
    s.author           = { 'chronustecnologia' => 'chronustecnologiasoftware@gmail.com' }
    s.source           = { :git => 'https://chronustecnologia@github.com/chronustecnologia/mobile-ios-dskit-chronus.git', :tag => s.version.to_s }
@@ -25,7 +24,7 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = '13.0'
    s.swift_version = '5.0'
 
-   s.source_files = 'ChronusDS/Classes/**/*.{h,m,swift}'
+   s.source_files = 'ChronusDS/Classes/**/*'
 
   # s.resource_bundles = {
   #   'ChronusDS' => ['ChronusDS/Assets/*.png']
