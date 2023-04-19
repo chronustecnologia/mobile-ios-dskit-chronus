@@ -1,0 +1,16 @@
+PODS:
+  - ChronusDS (0.1.0)
+
+DEPENDENCIES:
+  - ChronusDS (from `../`)
+
+EXTERNAL SOURCES:
+  ChronusDS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChronusDS: 3e77949292fb140e5300b86067674cd94d788372
+
+PODFILE CHECKSUM: e9b01bd94b25f3bc810e21e8ef3c9ab07887bae6
+
+COCOAPODS: 1.12.1

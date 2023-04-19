@@ -1,0 +1,6 @@
+framework module ChronusDS {
+  umbrella header "ChronusDS-umbrella.h"
+
+  export *
+  module * { export * }
+}
