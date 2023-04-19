@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D9F8551C94A9F68E4FB9D9F74127E9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7992D78CFD39D4628F91B639CA02D573 /* String+Extension.swift */; };
 		11D59AEF85AE3AE7CE9548DB158E41C5 /* Pods-ChronusDS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D5CBA3297F65849401B5B31AD150DD /* Pods-ChronusDS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		454608EE4E228576ED9B38AF2168D77E /* Pods-ChronusDS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B64B44591055832EFE3DA30EAFE9B6 /* Pods-ChronusDS_Tests-dummy.m */; };
 		50796799B3FB6FFDE3BC4A31502C99C3 /* Pods-ChronusDS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 319C177B0C52B4A5E277B7C897CAA2B5 /* Pods-ChronusDS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51330EEFEE67386E6674759B1A2853AA /* ChronusDS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEABBA80A8A0F8B9BC3F85CC194127D /* ChronusDS-dummy.m */; };
+		6EF3D712D3B1100631BFA4F71129F3EB /* ChronusDS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDBC58918732959CB56B4B12249EE1F /* ChronusDS-dummy.m */; };
 		6F7A5879BD2DB9140D8A99EB4ADD55A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8478CE86012142A8912BB00ED0DE0D43 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94FDEDB52F9C669B64797C33E000A8 /* ReplaceMe.swift */; };
 		B77C69E12C5604FCAB9AB914F09A28A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B8F709982EE1243931D81A8E98D241D8 /* ChronusDS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EF66B27328F1F123A8AA58EBE2B12C /* ChronusDS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F709982EE1243931D81A8E98D241D8 /* ChronusDS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DC67105C036AF4C965A2DEE156186C /* ChronusDS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD7512DBA9B91CC2D40F27903DA74D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D9720C7A4DA1AC52193AC25E0A19995D /* Pods-ChronusDS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CA270FE971E610378F5305A60E3F8 /* Pods-ChronusDS_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -38,36 +38,36 @@
 
 /* Begin PBXFileReference section */
 		04C72775A2738A317EFC923D2AD6F427 /* Pods-ChronusDS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChronusDS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		05BD6A2DCBF65BBD08E55E878A15FD55 /* ChronusDS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChronusDS-Info.plist"; sourceTree = "<group>"; };
 		0A29516223DDB50C6713100136ADC8B5 /* Pods-ChronusDS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChronusDS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		11B35F430AE2455DA904DC2C9670A12D /* ChronusDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChronusDS.release.xcconfig; sourceTree = "<group>"; };
+		13DC67105C036AF4C965A2DEE156186C /* ChronusDS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChronusDS-umbrella.h"; sourceTree = "<group>"; };
+		16BACC57145383B47DA5A94C8BF86108 /* ChronusDS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChronusDS-Info.plist"; sourceTree = "<group>"; };
+		1BEDF0B8DDA8700F4520B2BCF1FA70CF /* ChronusDS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChronusDS.modulemap; sourceTree = "<group>"; };
 		1C6965C9A4545E04D32A55D27B8B074F /* Pods-ChronusDS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChronusDS_Tests"; path = Pods_ChronusDS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EEFB232AEDA8668218093BB7041675C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		319C177B0C52B4A5E277B7C897CAA2B5 /* Pods-ChronusDS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChronusDS_Example-umbrella.h"; sourceTree = "<group>"; };
 		31BD2044956CFDE5A41D80BB9B8B42E0 /* Pods-ChronusDS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChronusDS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		50B64B44591055832EFE3DA30EAFE9B6 /* Pods-ChronusDS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChronusDS_Tests-dummy.m"; sourceTree = "<group>"; };
-		5A42249AFEF2F0C8AE502C2FC601E84F /* ChronusDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChronusDS.debug.xcconfig; sourceTree = "<group>"; };
-		60E2DDFB39F4D413FE77787A1CCFEAA6 /* ChronusDS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChronusDS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		631CA2F6D91AD52092B7D26F2F325B31 /* Pods-ChronusDS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChronusDS_Example-Info.plist"; sourceTree = "<group>"; };
 		658D68A35C9F448D0BF6C39F57B2AD63 /* Pods-ChronusDS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChronusDS_Example"; path = Pods_ChronusDS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D5CBA3297F65849401B5B31AD150DD /* Pods-ChronusDS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChronusDS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6FEABBA80A8A0F8B9BC3F85CC194127D /* ChronusDS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChronusDS-dummy.m"; sourceTree = "<group>"; };
+		725EFEE9D8E9C7541B62588F63461EB4 /* ChronusDS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChronusDS-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7992D78CFD39D4628F91B639CA02D573 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "ChronusDS/Classes/Extensions/String+Extension.swift"; sourceTree = "<group>"; };
+		7C12E8E2CC82543F4A80C5755FE781CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7DDBC58918732959CB56B4B12249EE1F /* ChronusDS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChronusDS-dummy.m"; sourceTree = "<group>"; };
 		855D80E2811F71913D8E067961429A61 /* Pods-ChronusDS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChronusDS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8754A9DD8A44C9D45A5619F52D44C589 /* Pods-ChronusDS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChronusDS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5981413227D1661581C0D3206A6437 /* ChronusDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChronusDS.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC94FDEDB52F9C669B64797C33E000A8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ChronusDS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B4ABACCE3A131ACA178979700C16EE3F /* ChronusDS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChronusDS.modulemap; sourceTree = "<group>"; };
-		BBA077CE7ADF3DB98CD0E945E3C2CBCD /* ChronusDS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChronusDS-prefix.pch"; sourceTree = "<group>"; };
+		A34FB07A3D602172483A943777537259 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C8500356A7E7F7B182A7D8C0F0383C2D /* Pods-ChronusDS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChronusDS_Tests-Info.plist"; sourceTree = "<group>"; };
 		D0FB85BE9045BC96BC62FF47792D6B36 /* Pods-ChronusDS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChronusDS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D63A2091E3210D232B583E92618E5293 /* Pods-ChronusDS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChronusDS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D8BE55BD020D65B0CA6063B2750F9CEB /* ChronusDS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChronusDS; path = ChronusDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA409E30A92231656F58077F7AE49F54 /* ChronusDS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChronusDS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0C1CBA3E4DB97B9062E7607AD7D2035 /* ChronusDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChronusDS.debug.xcconfig; sourceTree = "<group>"; };
 		E26CA270FE971E610378F5305A60E3F8 /* Pods-ChronusDS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChronusDS_Example-dummy.m"; sourceTree = "<group>"; };
 		F12B81B97A9DB68DB1DB58A56CDE729C /* Pods-ChronusDS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChronusDS_Example.modulemap"; sourceTree = "<group>"; };
 		F42505673FBA26140D7472ACE0106BE5 /* Pods-ChronusDS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChronusDS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F50FB060954F0599A7ABA538849507ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F8EF66B27328F1F123A8AA58EBE2B12C /* ChronusDS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChronusDS-umbrella.h"; sourceTree = "<group>"; };
 		FA6084F2EEB5AB977132DEF151ED6B13 /* Pods-ChronusDS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChronusDS_Tests.modulemap"; sourceTree = "<group>"; };
 		FE4EF438A051563F032886E0DA71B841 /* Pods-ChronusDS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChronusDS_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,15 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0305827378041EEC22DBDBE7DFF140E8 /* ChronusDS */ = {
+		0158747241B4891B179DB5D87AAF1844 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC94FDEDB52F9C669B64797C33E000A8 /* ReplaceMe.swift */,
-				B4650776851E9D8626440FB4B1183A30 /* Pod */,
-				6A4EAD1001A3DE6AFC3B4CB137641ED4 /* Support Files */,
+				1BEDF0B8DDA8700F4520B2BCF1FA70CF /* ChronusDS.modulemap */,
+				7DDBC58918732959CB56B4B12249EE1F /* ChronusDS-dummy.m */,
+				16BACC57145383B47DA5A94C8BF86108 /* ChronusDS-Info.plist */,
+				725EFEE9D8E9C7541B62588F63461EB4 /* ChronusDS-prefix.pch */,
+				13DC67105C036AF4C965A2DEE156186C /* ChronusDS-umbrella.h */,
+				E0C1CBA3E4DB97B9062E7607AD7D2035 /* ChronusDS.debug.xcconfig */,
+				8D5981413227D1661581C0D3206A6437 /* ChronusDS.release.xcconfig */,
 			);
-			name = ChronusDS;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChronusDS";
 			sourceTree = "<group>";
 		};
 		04DC2DD8F39C54062930394A043129CF /* Pods-ChronusDS_Example */ = {
@@ -128,6 +132,16 @@
 			path = "Target Support Files/Pods-ChronusDS_Example";
 			sourceTree = "<group>";
 		};
+		213F99A244A47B3896557804881695F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DA409E30A92231656F58077F7AE49F54 /* ChronusDS.podspec */,
+				A34FB07A3D602172483A943777537259 /* LICENSE */,
+				7C12E8E2CC82543F4A80C5755FE781CB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		4366FC9ECD094D0B31E0D7074AC16494 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +154,7 @@
 		4E3B51FAED1998DF28471054AE05D5D2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0305827378041EEC22DBDBE7DFF140E8 /* ChronusDS */,
+				68D492E5D3E7479271163BE112E02808 /* ChronusDS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -163,29 +177,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A4EAD1001A3DE6AFC3B4CB137641ED4 /* Support Files */ = {
+		68D492E5D3E7479271163BE112E02808 /* ChronusDS */ = {
 			isa = PBXGroup;
 			children = (
-				B4ABACCE3A131ACA178979700C16EE3F /* ChronusDS.modulemap */,
-				6FEABBA80A8A0F8B9BC3F85CC194127D /* ChronusDS-dummy.m */,
-				05BD6A2DCBF65BBD08E55E878A15FD55 /* ChronusDS-Info.plist */,
-				BBA077CE7ADF3DB98CD0E945E3C2CBCD /* ChronusDS-prefix.pch */,
-				F8EF66B27328F1F123A8AA58EBE2B12C /* ChronusDS-umbrella.h */,
-				5A42249AFEF2F0C8AE502C2FC601E84F /* ChronusDS.debug.xcconfig */,
-				11B35F430AE2455DA904DC2C9670A12D /* ChronusDS.release.xcconfig */,
+				7992D78CFD39D4628F91B639CA02D573 /* String+Extension.swift */,
+				213F99A244A47B3896557804881695F5 /* Pod */,
+				0158747241B4891B179DB5D87AAF1844 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ChronusDS";
-			sourceTree = "<group>";
-		};
-		B4650776851E9D8626440FB4B1183A30 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				60E2DDFB39F4D413FE77787A1CCFEAA6 /* ChronusDS.podspec */,
-				2EEFB232AEDA8668218093BB7041675C /* LICENSE */,
-				F50FB060954F0599A7ABA538849507ED /* README.md */,
-			);
-			name = Pod;
+			name = ChronusDS;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -258,7 +258,7 @@
 			buildConfigurationList = 634C56DFA32DF3233FA5607B879325E5 /* Build configuration list for PBXNativeTarget "ChronusDS" */;
 			buildPhases = (
 				5A3C8DF0953633F689321A824319DD02 /* Headers */,
-				BF9C00979E0DFA6133AF4ACC5ADEF094 /* Sources */,
+				BF66CA761F972A520299F721CB2F4A8C /* Sources */,
 				C265D4C36CA01C79374EED3BD687D323 /* Frameworks */,
 				91A933BE80E8E1B172E19DB2C6007DA1 /* Resources */,
 			);
@@ -363,12 +363,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BF9C00979E0DFA6133AF4ACC5ADEF094 /* Sources */ = {
+		BF66CA761F972A520299F721CB2F4A8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51330EEFEE67386E6674759B1A2853AA /* ChronusDS-dummy.m in Sources */,
-				8478CE86012142A8912BB00ED0DE0D43 /* ReplaceMe.swift in Sources */,
+				6EF3D712D3B1100631BFA4F71129F3EB /* ChronusDS-dummy.m in Sources */,
+				04D9F8551C94A9F68E4FB9D9F74127E9 /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +408,7 @@
 /* Begin XCBuildConfiguration section */
 		23F8D98EABEA15CC43B34F6E89DC032B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A42249AFEF2F0C8AE502C2FC601E84F /* ChronusDS.debug.xcconfig */;
+			baseConfigurationReference = E0C1CBA3E4DB97B9062E7607AD7D2035 /* ChronusDS.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -671,7 +671,7 @@
 		};
 		BF57ED9880EA3FB00F9F4295CD8BF903 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11B35F430AE2455DA904DC2C9670A12D /* ChronusDS.release.xcconfig */;
+			baseConfigurationReference = 8D5981413227D1661581C0D3206A6437 /* ChronusDS.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
