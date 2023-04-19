@@ -1,6 +1,0 @@
-framework module DSKit {
-  umbrella header "DSKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
