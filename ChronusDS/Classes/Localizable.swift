@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Localizable {
+public protocol Localizable {
     var tableName: String { get }
 
     func string(_ arguments: [CVarArg]) -> String
