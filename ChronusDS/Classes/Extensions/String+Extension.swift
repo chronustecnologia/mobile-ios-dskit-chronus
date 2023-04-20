@@ -9,7 +9,7 @@ import Foundation
 
 extension String {
     
-    func localized(tableName: String, arguments: [CVarArg] = []) -> String {
+    public func localized(tableName: String, arguments: [CVarArg] = []) -> String {
         String(format: NSLocalizedString(self, tableName: tableName, bundle: .main, comment: ""), arguments: arguments)
     }
 }
