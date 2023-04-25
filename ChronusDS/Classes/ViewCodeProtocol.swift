@@ -1,8 +1,9 @@
 //
 //  ViewCodeProtocol.swift
-//  AppViewCode
+//  ChronusDS
 //
 //  Created by Julio on 18/04/23.
+//  Copyright © 2023 CocoaPods. All rights reserved.
 //
 
 import Foundation

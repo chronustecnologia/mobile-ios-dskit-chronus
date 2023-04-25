@@ -1,16 +1,23 @@
 PODS:
-  - ChronusDS (0.1.0)
+  - ChronusDS (0.1.1)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - ChronusDS (from `../`)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   ChronusDS:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChronusDS: 2dd75b4e6ec4dad24bad627713a2f0a3cdb6026d
+  ChronusDS: 1aa4d411e91c128c7b774feace0471814ecef82f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 9155898c10858db0fe49c0cc704d18fc50f4b1c2
+PODFILE CHECKSUM: e847cbd45f3c79efb086108319cf69aa33a75c3a
 
 COCOAPODS: 1.12.1
