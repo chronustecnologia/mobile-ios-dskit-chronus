@@ -1,5 +1,8 @@
 PODS:
-  - ChronusDS (0.1.1)
+  - ChronusDS (0.1.1):
+    - SkeletonView
+    - SnapKit
+  - SkeletonView (1.30.4)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
@@ -8,6 +11,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - SkeletonView
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -15,9 +19,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChronusDS: 1aa4d411e91c128c7b774feace0471814ecef82f
+  ChronusDS: 6c6cef723f177ee6e94d2e54420815e6fed11ec1
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: e847cbd45f3c79efb086108319cf69aa33a75c3a
+PODFILE CHECKSUM: bdccd7b2c97a765e4d9a8e6e1a490c6e12cbe32c
 
 COCOAPODS: 1.12.1

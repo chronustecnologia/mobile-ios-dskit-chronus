@@ -24,13 +24,10 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = '13.0'
    s.swift_version = '5.0'
 
-   s.source_files = 'ChronusDS/Classes/**/*'
+   s.source_files = 'ChronusDS/Classes/**/*'#.'{h,m,swift}'
+   # s.resources = 'ChronusDS/Assets/**/*', 'ChronusDS/Classes/**/*.{xib,json,ttf,png,strings,xcassets}'
 
-  # s.resource_bundles = {
-  #   'ChronusDS' => ['ChronusDS/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   s.dependency 'SnapKit'
+   s.dependency 'SkeletonView'
 end
