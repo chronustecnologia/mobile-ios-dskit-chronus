@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChronusDS'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Design system kit com componentes para empresa Chronus Tecnologia'
 
   s.description      = <<-DESC
