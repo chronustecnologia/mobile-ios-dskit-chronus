@@ -19,7 +19,8 @@
     "ios": "13.0"
   },
   "swift_versions": "5.0",
-  "source_files": "ChronusDS/Classes/**/*",
+  "source_files": "ChronusDS/Classes/**/*.swift",
+  "resources": "ChronusDS/Assets/**/*",
   "frameworks": "UIKit",
   "dependencies": {
     "SnapKit": [

@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChronusDS: 6c6cef723f177ee6e94d2e54420815e6fed11ec1
+  ChronusDS: 5090a09f9fd421b19bdd60bd5a15d26ab8376c2c
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 

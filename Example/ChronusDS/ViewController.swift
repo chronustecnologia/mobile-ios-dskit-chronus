@@ -12,9 +12,7 @@ import ChronusDS
 class ViewController: UIViewController {
 
     override func loadView() {
-        let view = UIView()
-        view.backgroundColor = .white
-        self.view = view
+        self.view = ScreenView()
     }
     
     override func viewDidLoad() {
@@ -22,4 +20,3 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 }
-

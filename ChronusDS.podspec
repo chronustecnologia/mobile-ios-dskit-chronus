@@ -15,19 +15,19 @@ Pod::Spec.new do |s|
   Design system kit onde é desenvolvido os componentes e funções globais utilizados nos aplicativos da empresa Chronus Tecnolgoia.
                        DESC
 
-   s.homepage         = 'https://github.com/chronustecnologia/mobile-ios-dskit-chronus'
-   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-   s.author           = { 'chronustecnologia' => 'chronustecnologiasoftware@gmail.com' }
-   s.source           = { :git => 'https://chronustecnologia@github.com/chronustecnologia/mobile-ios-dskit-chronus.git', :tag => s.version.to_s }
-   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/chronustecnologia/mobile-ios-dskit-chronus'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'chronustecnologia' => 'chronustecnologiasoftware@gmail.com' }
+  s.source           = { :git => 'https://chronustecnologia@github.com/chronustecnologia/mobile-ios-dskit-chronus.git', :tag => s.version.to_s }
 
-   s.ios.deployment_target = '13.0'
-   s.swift_version = '5.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
 
-   s.source_files = 'ChronusDS/Classes/**/*'#.'{h,m,swift}'
-   # s.resources = 'ChronusDS/Assets/**/*', 'ChronusDS/Classes/**/*.{xib,json,ttf,png,strings,xcassets}'
-
-   s.frameworks = 'UIKit'
-   s.dependency 'SnapKit'
-   s.dependency 'SkeletonView'
+  s.source_files = 'ChronusDS/Classes/**/*.swift'
+  s.resource = 'ChronusDS/Assets/**/*'
+  # s.resource_bundles = { 'ChronusDS' => ['ChronusDS/Assets/**/*'] }
+  
+  s.frameworks = 'UIKit'
+  s.dependency 'SnapKit'
+  s.dependency 'SkeletonView'
 end

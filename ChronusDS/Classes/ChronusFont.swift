@@ -36,14 +36,17 @@ public class ChronusFont: NSObject {
     
     static func loadFontWith(name: String, type: String = "ttf") {
         let frameworkBundle = Bundle(for: ChronusFont.self)
-        let pathForResourceString = frameworkBundle.path(forResource: name, ofType: type)
-        let fontData = NSData(contentsOfFile: pathForResourceString!)
-        let dataProvider = CGDataProvider(data: fontData!)
-        let fontRef = CGFont(dataProvider!)
-        var errorRef: Unmanaged<CFError>? = nil
+        if let pathForResourceString = frameworkBundle.path(forResource: name, ofType: type) {
+            if let fontData = NSData(contentsOfFile: pathForResourceString) {
+                if let dataProvider = CGDataProvider(data: fontData) {
+                    let fontRef = CGFont(dataProvider)
+                    var errorRef: Unmanaged<CFError>? = nil
 
-        if !CTFontManagerRegisterGraphicsFont(fontRef!, &errorRef) {
-            NSLog("Failed to register font - register graphics font failed - this font may have already been registered in the main bundle.")
+                    if !CTFontManagerRegisterGraphicsFont(fontRef!, &errorRef) {
+                        NSLog("Failed to register font - register graphics font failed - this font may have already been registered in the main bundle.")
+                    }
+                }
+            }
         }
     }
 
