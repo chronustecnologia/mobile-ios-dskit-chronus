@@ -44,6 +44,12 @@ final class ScreenView: UIView {
         return button
     }()
     
+    private lazy var textField: ChronusTextField = {
+        let text = ChronusTextField()
+        text.textLabel = "Nome do label"
+        return text
+    }()
+    
     weak var delegate: ScreenViewDelegate?
     
     override init(frame: CGRect = .zero) {
@@ -55,7 +61,6 @@ final class ScreenView: UIView {
         super.init(coder: coder)
         setupViewCode()
     }
-    
 }
 
 extension ScreenView: ViewCodeProtocol {
@@ -64,6 +69,7 @@ extension ScreenView: ViewCodeProtocol {
         self.addSubview(titleLabel)
         self.addSubview(titleButton)
         self.addSubview(iconButton)
+        self.addSubview(textField)
         self.addSubview(bottomButton)
     }
     
@@ -81,6 +87,11 @@ extension ScreenView: ViewCodeProtocol {
         iconButton.snp.makeConstraints { make in
             make.top.equalTo(titleButton.snp.bottom).inset(-20)
             make.leading.equalToSuperview().inset(10)
+        }
+        
+        textField.snp.makeConstraints { make in
+            make.top.equalTo(iconButton.snp.bottom).inset(-10)
+            make.leading.trailing.equalToSuperview().inset(10)
         }
         
         bottomButton.snp.makeConstraints { make in

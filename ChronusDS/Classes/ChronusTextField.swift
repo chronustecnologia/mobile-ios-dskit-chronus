@@ -28,9 +28,9 @@ public class ChronusTextField: UITextField {
         return label
     }()
     
-    public var descText: String = "" {
+    public var textLabel: String = "" {
         didSet {
-            figurineLabel.text = descText
+            figurineLabel.text = textLabel
             setupConstraints()
         }
     }
@@ -83,7 +83,7 @@ public class ChronusTextField: UITextField {
     }
     
     func setupConstraints() {
-       let height = descText == "" ? 40 : 70
+       let height = textLabel == "" ? 40 : 70
             
         self.snp.updateConstraints { update in
             update.height.equalTo(height)
