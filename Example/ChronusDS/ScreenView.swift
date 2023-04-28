@@ -37,6 +37,13 @@ final class ScreenView: UIView {
         return button
     }()
     
+    private lazy var iconButton: ChronusIconButton = {
+        let button = ChronusIconButton(size: 40, padding: 6)
+        button.theme = .white
+        button.iconName = "bag"
+        return button
+    }()
+    
     weak var delegate: ScreenViewDelegate?
     
     override init(frame: CGRect = .zero) {
@@ -56,6 +63,7 @@ extension ScreenView: ViewCodeProtocol {
     func addHierarchy() {
         self.addSubview(titleLabel)
         self.addSubview(titleButton)
+        self.addSubview(iconButton)
         self.addSubview(bottomButton)
     }
     
@@ -68,6 +76,11 @@ extension ScreenView: ViewCodeProtocol {
         titleButton.snp.makeConstraints { make in
             make.top.equalTo(titleLabel.snp.bottom).inset(-10)
             make.leading.trailing.equalToSuperview().inset(10)
+        }
+        
+        iconButton.snp.makeConstraints { make in
+            make.top.equalTo(titleButton.snp.bottom).inset(-20)
+            make.leading.equalToSuperview().inset(10)
         }
         
         bottomButton.snp.makeConstraints { make in

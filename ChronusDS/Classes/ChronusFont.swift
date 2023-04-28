@@ -22,6 +22,8 @@ public class ChronusFont: NSObject {
     public static let thin = font(type: .thin, size: 16)
     public static let thinHighlight = font(type: .bold, size: 16)
     
+    public static let figurine = font(type: .regular, size: 16)
+    
     public enum FontType: String {
         case thin = "Poppins-Thin"
         case light = "Poppins-Light"

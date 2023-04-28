@@ -1,6 +1,6 @@
 {
   "name": "ChronusDS",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "Design system kit com componentes para empresa Chronus Tecnologia",
   "description": "Design system kit onde é desenvolvido os componentes e funções globais utilizados nos aplicativos da empresa Chronus Tecnolgoia.",
   "homepage": "https://github.com/chronustecnologia/mobile-ios-dskit-chronus",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://chronustecnologia@github.com/chronustecnologia/mobile-ios-dskit-chronus.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "13.0"

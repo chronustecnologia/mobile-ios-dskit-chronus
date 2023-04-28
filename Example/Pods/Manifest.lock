@@ -1,5 +1,5 @@
 PODS:
-  - ChronusDS (0.1.1):
+  - ChronusDS (0.1.2):
     - SkeletonView
     - SnapKit
   - SkeletonView (1.30.4)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChronusDS: 5090a09f9fd421b19bdd60bd5a15d26ab8376c2c
+  ChronusDS: f379b5a050cb810d423908182080f1e5b294e9fc
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 

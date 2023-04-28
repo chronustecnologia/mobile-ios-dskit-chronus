@@ -53,14 +53,14 @@ public extension Themeable where Self: ChronusButton {
         var backgroundColor: UIColor?
 
         switch theme {
-        case .blue:
-            backgroundColor = isPressed ? ChronusColor.darkBlue : ChronusColor.blue
-        case .black:
-            backgroundColor = isPressed ? ChronusColor.primaryDarkGray : ChronusColor.black
         case .red:
             backgroundColor = isPressed ? ChronusColor.darkRed : ChronusColor.red
         case .green:
             backgroundColor = isPressed ? ChronusColor.darkGreen : ChronusColor.green
+        case .blue:
+            backgroundColor = isPressed ? ChronusColor.darkBlue : ChronusColor.blue
+        case .black:
+            backgroundColor = isPressed ? ChronusColor.primaryDarkGray : ChronusColor.black
         case .white:
             backgroundColor = isPressed ? ChronusColor.offWhite : ChronusColor.white
             textColor = ChronusColor.black
@@ -71,5 +71,49 @@ public extension Themeable where Self: ChronusButton {
         
         self.backgroundColor = backgroundColor
         self.tintColor = textColor
+    }
+}
+
+public extension Themeable where Self: ChronusBgButton {
+    func setTheme(_ isPressed: Bool = false) {
+        guard isPressed else {
+            self.backgroundColor = .clear
+            return
+        }
+        
+        switch theme {
+        case .red:
+            backgroundColor = ChronusColor.darkRed
+        case .green:
+            backgroundColor = ChronusColor.darkGreen
+        case .blue:
+            backgroundColor = ChronusColor.darkBlue
+        case .black:
+            backgroundColor = ChronusColor.primaryDarkGray
+        case .white:
+            backgroundColor = ChronusColor.offWhite
+        }
+    }
+}
+
+public extension Themeable where Self: ChronusIconButton {
+    func setTheme(_ isPressed: Bool = false) {
+        guard self.isEnabled else {
+            self.tintColor = ChronusColor.lightGray
+            return
+        }
+        
+        switch theme {
+        case .red:
+            backgroundColor = isPressed ? ChronusColor.darkRed : ChronusColor.red
+        case .green:
+            backgroundColor = isPressed ? ChronusColor.darkGreen : ChronusColor.green
+        case .blue:
+            backgroundColor = isPressed ? ChronusColor.darkBlue : ChronusColor.blue
+        case .black:
+            backgroundColor = isPressed ? ChronusColor.primaryDarkGray : ChronusColor.primaryGray
+        case .white:
+            backgroundColor = isPressed ? ChronusColor.offWhite : ChronusColor.white
+        }
     }
 }
